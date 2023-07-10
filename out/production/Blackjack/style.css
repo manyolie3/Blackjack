@@ -1,0 +1,87 @@
+/* Blackjack Game View */
+.table {
+    -fx-background-image: url("table.jpg");
+    -fx-background-size: cover;
+}
+/* Game Selection View */
+#continue-button {
+    -fx-translate-y: -30;
+    -fx-pref-width: 200;
+    -fx-pref-height: 35;
+    -fx-font-family: Geneva;
+    -fx-font-size: 15;
+}
+.game-choices {
+    -fx-pref-height: 200;
+}
+
+.option-blackjack {
+    -fx-background-image: url("blackjackIcon.jpg");
+}
+.selection-button {
+    -fx-alignment: center;
+    -fx-translate-y: 50%;
+}
+
+#screen {
+    -fx-background-image: url("UltraVoilet.jpg");
+    -fx-background-size: cover;
+}
+.button:hover {
+    -fx-background-color: green;
+}
+#char-label {
+
+}
+
+#jim-dwight {
+    -fx-background-image: url("JimDwight.jpeg");
+}
+#dwight {
+    -fx-background-image: url("dwight.jpg");
+}
+#pam {
+    -fx-background-image: url("pam.jpeg");
+}
+#creed {
+    -fx-background-image: url("creed.jpg");
+}
+#prison-mike {
+    -fx-background-image: url("Prisonmike.png");
+}
+.char-icon {
+    -fx-background-size: cover;
+    -fx-shape: "M 50,50 m -50,0 a 50,50 0 1,0 100,0 a 50,50 0 1,0 -100,0";
+    -fx-pref-height: 85;
+    -fx-pref-width: 85;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.5), 20, 0, 0, 0);
+}
+HBox {
+    -fx-spacing: 25;
+}
+#blackjack-configuration-background {
+    -fx-background-image: url("table.jpg");
+    -fx-background-size: cover;
+}
+.char-icon:hover {
+    -fx-effect: dropshadow(one-pass-box, rgba(0, 0, 0, .5), 50, 0, -4, 2);
+    -fx-pref-width: 90;
+    -fx-pref-height: 90;
+}
+
+#deckOfCardsImage {
+    -fx-background-image: url("src/images/backOfCard.png");
+}
+
+.hit-stand-buttons {
+    -fx-alignment: center;
+}
+.chip-buttons {
+    -fx-background-radius: 100;
+}
+.show-result {
+    -fx-background-color: rgba(194, 190, 187, 0.5);
+    -fx-border-color: black;
+    -fx-border-width: 4;
+    -fx-effect: dropshadow(one-pass-box, rgba(0, 0, 0, .5), 50, 0, -4, 2);
+}
