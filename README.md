@@ -7,7 +7,7 @@ I created a Blackjack application using JavaFX with [@acrumbley7](https://github
 
 # How to Play!
 ### Goal
-Tthe player wants the total value of their hand to be of greater value than the dealer’s hand without going over 21.
+The player wants the total value of their hand to be of greater value than the dealer’s hand without going over 21.
 Scoring: cards with face value of 2-10 are worth the value of the card. Face cards Jack, Queen, & King are values at 10. Aces can serve as either 1 or 11, depending on what is best for the hand.
 ### Steps
 - The player places a bet for the round and the dealer matches.
