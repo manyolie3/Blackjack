@@ -1,6 +1,7 @@
 # Blackjack JavaFX GUI Application
 I created a Blackjack application using JavaFX with [@acrumbley7](https://github.com/acrumbley7)! This game functions like a normal blackjack game except it does not have some features of blackjack such as splitting your hand and doubling your bet. 
-Credit for the images of the cards in the game goes to [@JaretWright](https://github.com/JaretWright)!
+
+Credit for the images of the cards used in the game goes to [@JaretWright](https://github.com/JaretWright)!
 
 
 <img width="1114" alt="Screenshot 2023-07-10 at 2 30 24 PM" src="https://github.com/manyolie3/Blackjack/assets/127877144/69765630-3727-4cc5-9ee4-feb6a9693f80">
